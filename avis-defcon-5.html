@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Communiqué officiel — DEFCON 5 — San Andreas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Crimson+Pro:wght@400;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#161616;--soft:#4a4a4a;--navy:#0b2a4a;--red:#b3141b;--line:#d8dde3;
+    --body:'Crimson Pro','Times New Roman',Times,serif;
+    --head:'Libre Baskerville','Times New Roman',Times,serif;}
+  *{box-sizing:border-box;}
+  @page{size:A4;margin:0;}
+  html,body{margin:0;padding:0;}
+  body{background:#e9ecf0;font-family:var(--body);color:var(--ink);}
+  .page{width:210mm;height:297mm;flex:none;margin:20px auto;background:#fff;position:relative;overflow:hidden;
+    padding:0 16mm 12mm;box-shadow:0 2px 10px rgba(0,0,0,.15);display:flex;flex-direction:column;}
+  .topbar{flex:none;height:9mm;background:var(--navy);margin:0 -16mm;border-bottom:3px solid var(--red);}
+
+  .head{display:flex;align-items:center;gap:8mm;padding:6mm 0 5mm;border-bottom:1px solid var(--ink);}
+  .seal{width:26mm;height:26mm;flex:none;}
+  .head .who{flex:1;}
+  .head .state{font-family:var(--head);font-weight:700;font-size:20pt;letter-spacing:.04em;margin:0;line-height:1.15;}
+  .head .office{font-size:13.5pt;color:var(--soft);margin:2px 0 0;font-style:italic;}
+  .head .ref{text-align:right;font-size:12.5pt;line-height:1.4;}
+  .head .ref b{color:var(--red);font-weight:600;}
+
+  h1{font-family:var(--head);font-weight:700;font-size:28pt;line-height:1.15;margin:5mm 0 0;letter-spacing:.01em;}
+  h1 small{display:block;font-size:15pt;font-weight:400;font-style:italic;color:var(--soft);margin-top:3mm;}
+
+  .scale{display:flex;margin:5mm 0 6mm;border:1.5px solid var(--ink);}
+  .scale div{flex:1;text-align:center;padding:3mm 0;font-size:12.5pt;color:var(--soft);border-right:1px solid var(--line);}
+  .scale div:last-child{border-right:none;}
+  .scale div b{display:block;font-family:var(--head);font-size:15pt;color:var(--ink);}
+  .scale div.on{background:var(--navy);color:#fff;}
+  .scale div.on b{color:#fff;font-size:19pt;}
+
+  .intro{font-size:15.5pt;line-height:1.35;margin:0 0 6mm;}
+
+  .box{border:1.5px solid var(--red);margin-bottom:5mm;}
+  .box h3{margin:0;background:var(--red);color:#fff;font-family:var(--head);font-size:14pt;padding:2mm 6mm;letter-spacing:.02em;}
+  .box ul{margin:0;padding:3mm 6mm 2mm 13mm;font-size:15pt;line-height:1.35;}
+  .box li{margin-bottom:1.5mm;}
+
+  .outro{font-size:14.5pt;line-height:1.4;margin:0;}
+
+  .signature{flex:none;margin-top:auto;padding-top:6mm;margin-left:auto;width:90mm;text-align:center;}
+  .role{font-size:14.5pt;border-bottom:1.5px solid var(--ink);display:inline-block;padding:0 6mm 1px;}
+  .sig{font-family:'Mrs Saint Delafield','Brush Script MT','Segoe Script',cursive;font-size:40pt;line-height:1.1;
+       white-space:nowrap;display:block;margin-top:3mm;transform:rotate(-3deg);}
+  .foot{flex:none;border-top:1px solid var(--ink);margin-top:6mm;padding-top:2mm;text-align:center;font-size:10.5pt;color:var(--soft);}
+
+  @media print{body{background:#fff;}.page{margin:0;box-shadow:none;}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="arcTop" d="M 30,100 A 70,70 0 0 1 170,100"/>
+    <path id="arcBot" d="M 24,100 A 76,76 0 0 0 176,100"/>
+    <symbol id="seal" viewBox="0 0 200 200">
+      <circle cx="100" cy="100" r="97" fill="#d9a441" stroke="#a97a1c" stroke-width="2"/>
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#fff3c4" stroke-width="2" stroke-dasharray="1.5 4.5" stroke-linecap="round"/>
+      <circle cx="100" cy="100" r="84" fill="#2a78c2"/>
+      <circle cx="100" cy="100" r="58" fill="#f3d37a" stroke="#a97a1c" stroke-width="1.5"/>
+      <text font-family="'Libre Baskerville',Georgia,serif" font-weight="700" font-size="14.5" fill="#fff" letter-spacing="1.5">
+        <textPath href="#arcTop" startOffset="50%" text-anchor="middle">STATE OF SAN ANDREAS</textPath></text>
+      <text font-family="'Libre Baskerville',Georgia,serif" font-weight="700" font-size="12.5" fill="#fff" letter-spacing="2">
+        <textPath href="#arcBot" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">OFFICE OF THE GOVERNOR</textPath></text>
+      <path d="M100 52 L140 62 V104 C140 128 122 142 100 150 C78 142 60 128 60 104 V62 Z" fill="#fff" stroke="#0b2a4a" stroke-width="2.5"/>
+      <path d="M100 52 L140 62 V84 H60 V62 Z" fill="#0b2a4a"/>
+      <path d="M60 84 V104 C60 128 78 142 100 150 V84 Z" fill="#c4161c"/>
+      <polygon points="100,58 103,66 112,66 105,71 108,80 100,75 92,80 95,71 88,66 97,66" fill="#fff"/>
+      <path d="M100 98 L110 118 H90 Z" fill="#0b2a4a"/>
+      <circle cx="100" cy="124" r="4" fill="#0b2a4a"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="page">
+  <div class="topbar"></div>
+
+  <div class="head">
+    <svg class="seal" viewBox="0 0 200 200"><use href="#seal"/></svg>
+    <div class="who">
+      <p class="state">ÉTAT DE SAN ANDREAS</p>
+      <p class="office">Cabinet du Gouverneur</p>
+    </div>
+    <div class="ref">Communiqué n° 001<br>Fait le <b>16/11/2026</b></div>
+  </div>
+
+  <h1>Niveau d’alerte DEFCON 5<small>Situation normale sur l’ensemble de l’État</small></h1>
+
+  <div class="scale">
+    <div><b>1</b>Maximale</div>
+    <div><b>2</b>Élevée</div>
+    <div><b>3</b>Accrue</div>
+    <div><b>4</b>Renforcée</div>
+    <div class="on"><b>5</b>Normale</div>
+  </div>
+
+  <p class="intro">En ma qualité de Gouverneur de San Andreas, j’informe la population que l’État est placé en <strong>DEFCON 5</strong>, le niveau d’alerte le plus bas : aucune menace n’est identifiée.</p>
+
+  <div class="box">
+    <h3>Ce que cela change</h3>
+    <ul>
+      <li>Les services de l’État fonctionnent normalement.</li>
+      <li>Les patrouilles et contrôles reprennent leur rythme habituel.</li>
+      <li>Aucune restriction particulière n’est imposée aux citoyens.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3>Rappel à la population</h3>
+    <ul>
+      <li>Respecter les lois et les consignes des forces de l’ordre.</li>
+      <li>Signaler tout comportement suspect.</li>
+      <li>S’informer uniquement par les canaux officiels.</li>
+    </ul>
+  </div>
+
+  <p class="outro">Cette mesure prend effet immédiatement. Le niveau d’alerte pourra être relevé à tout moment par avis officiel.</p>
+
+  <div class="signature">
+    <span class="role">Gouverneur de San Andreas</span>
+    <span class="sig">John Fremont</span>
+  </div>
+
+  <div class="foot">Gouvernement de l’État de San Andreas · Document officiel</div>
+</div>
+</body>
+</html>
